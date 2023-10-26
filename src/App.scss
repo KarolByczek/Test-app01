@@ -1,0 +1,23 @@
+@import "colors";
+
+.page {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  
+  .container {
+    width: 300px;
+    padding: 10px;
+    color: $text-color-secondary;
+
+    .text {
+      font-weight: 700;
+      color: $text-color-primary;
+    }
+
+  };
+
+};
+
+
+
