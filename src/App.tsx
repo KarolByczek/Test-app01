@@ -9,7 +9,7 @@ export const FullName = () => {
   const fullName: string = 'Karol Byczek';
   return (
     <div className='fullName container'>
-      <span className = 'text'>My name is Jeff. ...Oh no, I mean it's: </span>{fullName}.
+      <span className = 'text'>Full name: </span>{fullName}.
     </div>
   )
 };
@@ -19,7 +19,7 @@ export const Birthday = () => {
   const birthDate: string = rawDate.toLocaleDateString();
   return (
     <div className='birthDate container'>
-      <span className = 'text'>My birthdate is: </span>{birthDate}.
+      <span className = 'text'>Birthday: </span>{birthDate}.
     </div>
   )
 };
