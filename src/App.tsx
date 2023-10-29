@@ -1,47 +1,26 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.scss';
+import React from "react";
+import logo from "./logo.svg";
+import "./App.scss";
+import {FullName} from "./components/FullName";
+import {Birthday} from "./components/Birthday";
+import {PresentSuggestion} from "./components/PresentSuggestion";
+import {Card} from "./components/Card";
+import {Wishes} from "./components/Wishes";
+import {Avatar} from "./components/Avatar";
 
-
-
-
-export const FullName = () => {
-  const fullName: string = 'Karol Byczek';
-  return (
-    <div className='fullName container'>
-      <span className = 'text'>Full name: </span>{fullName}.
-    </div>
-  )
-};
-
-export const Birthday = () => {
-  const rawDate: Date = new Date("1986-06-16");
-  const birthDate: string = rawDate.toLocaleDateString();
-  return (
-    <div className='birthDate container'>
-      <span className = 'text'>Birthday: </span>{birthDate}.
-    </div>
-  )
-};
-
-export const PresentSuggestion = () => {
-  const presentSuggestions: string[] = ['Nike sneakers', 'teddybear', 'a plant in a pot', 'party costume', 'iPhone 5000', 'rollerblades'];
-  const suggestedPresentIndex: number = (Math.floor(Math.random()*5.9));
-  const presentProposition: string = presentSuggestions[suggestedPresentIndex];
-
-  return (
-    <div className='presentProposition container'>
-      <span className = 'text'>You can buy her/him: </span>{presentProposition}.
-    </div>
-  )
-};
 
 function App() {
   return (
-    <div className='page'>
-      <FullName />
-      <Birthday />
-      <PresentSuggestion />
+    <div className="page">
+      <Card>
+        <Avatar />
+        <div className="content">
+          <FullName />
+          <Birthday />
+          <PresentSuggestion />
+          <Wishes />
+        </div>
+      </Card>
     </div>
   );
 };
