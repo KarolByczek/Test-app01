@@ -6,7 +6,7 @@ export const Wishes = () => {
     "May your neighbour keep out of your private business!",
     "May your cow produce milk with a lovely pinkish hue (not from its blood)!"
   ];
-  const randomWish = wishes[Math.floor(Math.random()*5)]
+  const randomWish:string = wishes[Math.floor(Math.random()*5)];
     
   return (
     <div className="wishes">
