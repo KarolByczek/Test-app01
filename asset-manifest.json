@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/my-app01/static/css/main.65c3c443.css",
+    "main.js": "/my-app01/static/js/main.33010a9f.js",
+    "static/js/787.caf155cb.chunk.js": "/my-app01/static/js/787.caf155cb.chunk.js",
+    "static/media/background.jpg": "/my-app01/static/media/background.359662dccf3e5e4e4c86.jpg",
+    "static/media/card-adornment-1.png": "/my-app01/static/media/card-adornment-1.2199cee49af160ce9c1b.png",
+    "static/media/Avatar.jpg": "/my-app01/static/media/Avatar.043f47bde42ce709cb49.jpg",
+    "static/media/card-adornment-2.png": "/my-app01/static/media/card-adornment-2.bff04c708da3fc8ef296.png",
+    "index.html": "/my-app01/index.html",
+    "main.65c3c443.css.map": "/my-app01/static/css/main.65c3c443.css.map",
+    "main.33010a9f.js.map": "/my-app01/static/js/main.33010a9f.js.map",
+    "787.caf155cb.chunk.js.map": "/my-app01/static/js/787.caf155cb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.65c3c443.css",
+    "static/js/main.33010a9f.js"
+  ]
+}
